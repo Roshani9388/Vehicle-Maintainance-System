@@ -1,0 +1,95 @@
+Document:System Requirement Specification Document
+
+Title:Vehicle Maintaince System
+
+OBJECTIVE: The Vehicle Maintaince System  is intended to  provide complete solution for vendors, Customers as well as internal users (Staff)  through  a single Gateway using internet. It will enable vendors to set up online inventory, customers purchase parts online without visiting the shop physically.
+
+SCOPE:
+The scope of this project is to develop an online vehicle service management system for customer which supports the core functions of manage customers, employees and staff details, maintain their day to day activities such as manage income and preparing the billing summary details for vehicle service and repairing, pay hours, daily and
+monthly salaries for employees and prepare quotation for service and repair to government and private organizations and reduce the workload and updating data in order to carry out the day to day activities effectively and efficiently.
+
+TEAM:
+	Direct Customer,
+	Indirect Customer,
+	Supervisior,
+	Inventory Manager,
+	Accountant,
+	Co-worker,
+	Mechanic.
+
+REQUIREMENTS:
+* Functional Requirements:
+It is the primary requirements that are fulfilled by our application. It’s allowing the users, customers to use our application at the level of ease. The purpose of our workshop is to provide a platform where without wasting the time they can take an appointment. Here is the following requirement that is fulfilled by our system.
+
+1)Customer:
+ User Login
+	This feature is used by the Customer/admin/Mechanic to login into the system. A user/admin must log in with his user name and password to the system after registration. If they are invalid, the user is not allowed to enter the system.Username and password will be provided after user registration is confirmed.Password should be hidden from others while typing it in the field.
+
+Register New Customer
+	A new user will have to register in the system by providing essential details to use the application.The system must be able to verify and validate the information.The system must encrypt the password of the customer to provide security.
+
+Add or Delete Cars
+	The user can add or delete cars of their own in the application.The system must ensure that only a registered customer can perform this operation.
+
+ Take Appointment
+	Customers can take an appointment at home using this application easily.
+
+Select Services
+	Customers can select services for their choice about what they want to do or according to their needs.
+
+Check invoice
+	After the completion of the task by the mechanic, the customer can check the invoice.
+
+Check Appointment date and time
+	Customers can check about the date and time of the appointment easily.
+
+2)Admin:
+Add Mechanic
+	Admin can add a new mechanic to the database. The system must be ensuring that the user is an admin and then allow to move the admin dashboard.
+
+View Reports
+	Admin can review the reports of the different operations performed through the application.
+
+Provide Services
+	Admin can provide the services to the user and the mechanic.
+
+3)Mechanic:
+ Handle Appointment
+	The mechanic will be able to check the appointment and handle then handle it according to the selected services. The system should must move the authorized user to the mechanic dashboard.
+
+
+* Non-Functional Requirement:
+
+1)Security:
+	Security is the degree of resistance to, or protection from, harm. It applies to any vulnerable and valuable asset. This system is a web based system and tractions also is done through the web site also. Since the system is also accessed by the public internet, high level security mechanism was implemented. Any user can view the news without registering with the system. Registered users will be directed to the appropriate pages based on the user type. When the user tries to login to the system he/she will be asked to enter registered username and password. This login has to used authenticate the users. When we enter username and password correctly system displays their user interface. If we enter username or password wrong the system will provide a message box with meaningful message. If we enter wrong username or password more than three then systems automatically go to forget password page.
+
+2)Reliability
+	The system will backup business data on regular basis and recover in short time duration to keep system operational. Continous updates are matained , continous Adminstration is done to keep system operational.During peak hours system will maintain same user experaince by managing load balancing .
+
+3)Availability
+	The system will be available for all the time.It can be accessed 24*7 anytime. 
+	
+4)Maintainability:
+	A Commercial database software will be used to maintain System data Persistence.A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities. IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.Separate enviornment will be maintained for system for isolation in  production, testing, and development.
+
+5)Portablility:
+	Vehicle Maintaince System will be available on IOS,android,mac,windows and linux platform.
+
+6)Accessibility:
+	only registered customer will be able to place an order after authentication.BOD team will be able to view daily, weekly, monthly, annual business Growth through customized dashboard.
+
+7)Durability:
+	  System will implement backup and recovery for retaining customerss data, bussiness operation data and business data over time.
+
+8)Efficiency:
+	System will be able to manage all transactions with isolation.
+
+9)Modularity:
+	 System will designed and developed using reusable, independent or dependent business senarios in the form of modules. These modules will be loosely coupled and highly cohesive. System will contain CRM , Inventory , vendors, appoinment processing, payment processing and Roles managment modules.
+	
+10)Scalability:
+	System will be able  to  provide  consistent user exeprience to customers as well as vistors irrespective of load.When the users will increase that time the system will adjust according to load, and when customers are less then it will adjust accordingly.
+
+11)Safety:
+	Vehicle Maintaince System functionalilites are protected from outside with proper firewall configuration.Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.Role based security will be applied for Application data and operations accessibility.
+ 
