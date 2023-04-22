@@ -1,0 +1,114 @@
+
+Business Entities:
+1)Customer (Existing)
+2)Customer (New)
+3)Supervisior
+4)Inventory Manager
+5)Accountant
+6)Mechanic.
+
+Business Operations:
+************* Customer Portal**************
+getUserName
+getPassword
+login
+getUserDetails
+Signup
+
+insertVehicleDetails
+descComplaint/problems
+bookAppointment
+reschedule / cancel appoinment
+cofirmAppoinment
+
+payment
+readyInv
+
+************* Supervisior Portal ***********
+getUserName
+getPassword
+login
+
+checkVehicleDetails
+forwardtoInvtMan
+cofirm_or_rejectAppoinmentbysuper
+readyvehicletocust
+createJobList
+sendjoblisttomech
+invoiceReqtoAcco
+
+
+
+*************** Inventory Manager************
+
+getUserName
+getPassword
+login
+
+checkInventory
+returnResulttoSuper
+update
+insert
+delete
+invoiceRequ
+
+******************** Accountant ********************
+getUserName
+getPassword
+login
+
+checkbill
+maintaininvetpricelist
+refund
+createInv
+SendInvoicetocust
+
+staffsal
+
+******************** Mechanic*************
+getUserName
+getPassword
+login
+
+checkVehicleDetails
+rcvJobList
+extrachanges
+updateJobList
+readyvehicletosuper
+
+********************* Inventory *****************
+insert
+delete
+update
+
+************* Payment************
+Bycash
+credit
+debit
+UPI
+Netbanking
+
+
+MODULES:
+Registration
+In-out Details
+InventoryManagement
+BillingOperations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
