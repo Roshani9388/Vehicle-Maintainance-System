@@ -1,0 +1,21 @@
+1)Customer
+ Name
+Mailid
+Phoneno
+Address
+
+2)Staff
+Role(Supervisior/Inventory Manager/Accountant/Mechanic)
+Name
+Mailid
+Phoneno
+Address
+
+3)Vehicle
+Type(car/bike)
+Model No
+Number
+
+4)Register
+Username
+Password
